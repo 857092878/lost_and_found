@@ -1,0 +1,142 @@
+{% extends 'user_layout.html' %}
+
+{% block content %}
+    <div class="container">
+
+{#        <div style="margin-bottom: 10px">#}
+{#            <a class="btn btn-success" href="/found/add/">#}
+{#                <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>#}
+{#                捡到东西#}
+{#            </a>#}
+{#        </div>#}
+        <div class="panel panel-default">
+            <!-- Default panel contents -->
+
+            <div style="float: right;width: 300px;">
+                <form method="get">
+                    <div class="input-group">
+                        <input type="text" name="q" class="form-control" placeholder="Search for..."
+                               value="{{ value }}">
+                        <span class="input-group-btn">
+                        <button class="btn btn-default" type="submit">
+                            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                        </button>
+                      </span>
+                    </div>
+                </form>
+            </div>
+
+            <div class="panel-heading">
+                <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+                遗失记录
+            </div>
+
+            <!-- Table -->
+            <table class="table table-bordered">
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>图片</th>
+                    <th>捡的物品</th>
+                    <th>种类</th>
+                    <th>掉的位置</th>
+                    <th>掉的时间</th>
+                    <th>失主姓名</th>
+                    <th>失主账户</th>
+                    <th>失主联系方式</th>
+                    <th>描述</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for obj in queryset %}
+                    <tr>
+                        <th>{{ obj.id }}</th>
+                        <td>
+                            <img src="/media/{{ obj.img }}" style="height: 80px;">
+                        </td>
+                        <td>{{ obj.thing }}</td>
+                        <td>{{ obj.sort.title }}</td>
+                        <td>{{ obj.location.title }}</td>
+                        <td>{{ obj.found_time|date:"Y-m-d" }}</td>
+                        <td>{{ obj.name }}</td>
+                        <td>{{ obj.username }}</td>
+                        <td>{{ obj.link }}</td>
+                        <td>{{ obj.description }}</td>
+                        <td>
+{#                            <a class="btn btn-primary btn-xs" href="/lost/{{ obj.id }}/edit/">编辑</a>#}
+                            <input uid="{{ obj.id }}" class="btn btn-danger btn-xs btn-delete" type="button" value="撤回">
+                        </td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <!-- 分页列表 -->
+        <ul class="pagination">
+            {{ page_string }}
+        </ul>
+
+    </div>
+<!-- 删除（对话框） -->
+    <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+
+            <div class="alert alert-danger alert-dismissible fade in" role="alert">
+                <h4>是否确定撤回？</h4>
+                <p style="margin: 10px 0;"> 撤回后，会重现显示在未领取的遗失列表中。</p>
+                <p style="text-align: right;">
+                    <button id="btnConfirmDelete" type="button" class="btn btn-danger">确 定</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取 消</button>
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+{% endblock %}
+
+
+{% block js %}
+    <script type="text/javascript">
+        var DELETE_ID;
+        var EDIT_ID;
+
+        $(function () {
+            bindBtnDeleteEvent();
+            bindBtnConfirmDeleteEvent();
+        })
+
+        function bindBtnDeleteEvent() {
+            $(".btn-delete").click(function () {
+                // alert("点击了删除");
+                // 显示删除对话框
+                $("#deleteModal").modal('show');
+
+                // 获取当前行的ID并赋值给全部变量。
+                DELETE_ID = $(this).attr("uid");
+            });
+        }
+
+        function bindBtnConfirmDeleteEvent() {
+            $("#btnConfirmDelete").click(function () {
+                $.ajax({
+                    url: "/user/myfound/record/delete/",
+                    type: "GET",
+                    data: {
+                        uid: DELETE_ID
+                    },
+                    dataType: "JSON",
+                    success: function (res) {
+                        if (res.status) {
+                            location.reload();
+                        } else {
+                            // 删除失败
+                            alert(res.error);
+                        }
+                    }
+                })
+            });
+        }
+    </script>
+{% endblock %}

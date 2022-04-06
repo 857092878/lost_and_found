@@ -1,0 +1,189 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="shortcut icon" href="{% static 'lol.ico'%}" type="image/x-icon">
+    <script type="text/javascript" src="{% static 'js/jquery.js'%}"></script>
+    <script type="text/javascript" src="{% static 'js/echarts.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/echarts.min.js'%}"></script>
+    <script type="text/javascript" src="{% static 'js/js.js'%}"></script>
+    <script type="text/javascript" src="{% static 'js/jquery.liMarquee.js'%}"></script>
+    <script type="text/javascript" src="{% static 'js/jquery.cxselect.min.js'%}"></script>
+    <link rel="stylesheet" href="{% static 'css/comon0.css'%}">
+
+</head>
+
+<body>
+    <div style="background:#000d4a url({% static 'img/bg.png'%}) center top;">
+        <div class="loading">
+            <div class="loadbox"> <img src="{% static 'img/loading.gif'%}"> 页面加载中... </div>
+        </div>
+        <div class="back"></div>
+        <div class="head">
+            <div class="JavaS"><a href="/found/list/" target="_blank">管理系统</a></div>
+            <div class="weather"><span id="showTime"></span></div>
+                <h1>失物招领系统管理后台播报</h1>
+        </div>
+        <script>
+            var t = null;
+            t = setTimeout(time, 1000); /*开始运行*/
+            function time() {
+                clearTimeout(t); /*清除定时器*/
+                dt = new Date();
+                var y = dt.getFullYear();
+                var mt = dt.getMonth() + 1;
+                var day = dt.getDate();
+                var h = dt.getHours();
+                var m = dt.getMinutes();
+                var s = dt.getSeconds();
+                document.getElementById("showTime").innerHTML = y + "年" + mt + "月" + day + "日" + h + "时" + m + "分" + s + "秒";
+                t = setTimeout(time, 1000);
+            }
+        </script>
+        <div class="mainbox">
+            <ul class="clearfix">
+                <li>
+                    <div class="boxall" style="height:675px;">
+                        <div class="alltitle">遗留名单</div>
+                        <div class="navboxall">
+                            <div class="wraptit">
+                                <span>捡到时间</span><span>拾主</span><span>物品</span><span>捡的位置</span>
+                            </div>
+                            <div class="wrap">
+                                <ul>
+                                    {% for i in fount_list %}
+                                    <li>
+                                        <p><span>{{ i.found_time|date:"Y-m-d" }}</span><span>{{ i.name }}</span><span>{{ i.thing }}</span><span>{{ i.location.title }}</span></p>
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="boxall" style="height:260px;">
+                        <div class="alltitle">种类数量</div>
+
+                        <div class="navboxall" id="echart1"></div>
+                    </div>
+                </li>
+                <li>
+
+                    <div class="boxall" style="height:230px">
+                        <div class="clearfix navboxall" style="height: 100%">
+
+                            <div class="pulll_left zhibiao">
+                                <div class="zb1"><span><br>今日挂失</span>
+                                    <div id="zb1"></div>
+                                </div>
+                                <div class="zb2"><span><br>累计挂失</span>
+                                    <div id="zb2"></div>
+                                </div>
+                                <div class="zb3"><span><br>今日捡到</span>
+                                    <div id="zb3"></div>
+                                </div>
+                            </div>
+                            <div class="pulll_right zhibiao ">
+                                <div class="zb4"><span><br>未还的遗留物</span>
+                                    <div id="zb4"></div>
+                                </div>
+                                <div class="zb5"><span><br>未找到的挂失物</span>
+                                    <div id="zb5"></div>
+                                </div>
+                                <div class="zb6"><span><br>累计捡到</span>
+                                    <div id="zb6"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="boxall" style="height:350px">
+                        <div class="alltitle">丢失位置分析</div>
+                        <div class="navboxall" id="echart4"></div>
+                    </div>
+
+                    <div class="boxall" style="height:340px">
+                        <div class="alltitle">近12日丢失情况</div>
+                        <div class="navboxall" id="echart3"></div>
+                    </div>
+                </li>
+                <li>
+     
+                    <div class="boxall" style="height:634px;">
+                        <div class="alltitle">挂失清单</div>
+                        <div class="navboxall">
+                            <div class="wraptit">
+                                <span>丢的时间</span><span>失主</span><span>物品</span><span>掉的位置</span>
+                            </div>
+                            <div class="wrap">
+                                <ul>
+                                    {% for i in lost_list %}
+                                    <li>
+                                        <p><span>{{ i.lost_time|date:"Y-m-d" }}</span><span>{{ i.name }}</span><span>{{ i.thing }}</span><span>{{ i.location.title }}</span></p>
+                                    </li>
+                                    {% endfor %}
+
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="boxall" style="height: 300px">
+                        <div class="alltitle">丢失较多物品排行</div>
+                        <div class="navboxall">
+                            <table class="table1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                    <tr>
+                                        <th scope="col" class="toptop">排名</th>
+                                        <th scope="col">物品</th>
+                                        <th scope="col">种类</th>
+                                        <th scope="col">次数</th>
+                                    </tr>
+                                    {% for i in thing %}
+                                    <tr>
+                                        <td><span>{{ i.ti }}</span></td>
+                                        <td>{{ i.th }}</td>
+                                        <td>{{ i.so }}<br></td>
+                                        <td>{{ i.co }}<br></td>
+                                    </tr>
+                                    {% endfor %}
+
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+
+
+                    <!-- <div class="boxall" style="height:320px">
+                        <div class="alltitle">MVP种子选手</div>
+                        <div class="navboxall" id="echart2"></div>
+                    </div> -->
+
+
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+    <script>
+        $(function() {
+            $('.wrap,.adduser').liMarquee({
+                direction: 'up',
+                /*向上滚动*/
+                runshort: false,
+                /*内容不足时不滚动*/
+                scrollamount: 20 /*速度*/
+            });
+        });
+    </script>
+
+
+
+
+</body>
+
+</html>

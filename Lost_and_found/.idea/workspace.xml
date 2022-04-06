@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a0a95c11-634a-4e35-9a06-a2931d038a87" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/Lost_and_found.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Lost_and_found.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/middleware/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/migrations/0002_auto_20220325_1753.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/migrations/0003_admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/migrations/0004_lost.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/migrations/0005_auto_20220325_2106.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/migrations/0006_auto_20220325_2117.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/migrations/0007_auto_20220325_2118.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/migrations/0008_found.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/migrations/0009_auto_20220326_1520.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/migrations/0010_foundrecor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/migrations/0011_auto_20220326_1635.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/migrations/0012_lostrecord.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/migrations/0013_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/migrations/0014_auto_20220327_1700.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/fonts/Monaco.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/img/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/img/WX20211117-222041@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/img/code.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/img/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/img/图片 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/js/echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/js/echarts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/js/jquery-3.6.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-3.4.1/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-3.4.1/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-3.4.1/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-3.4.1/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-3.4.1/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-3.4.1/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-3.4.1/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-3.4.1/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-3.4.1/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-3.4.1/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-3.4.1/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.standalone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.standalone.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.standalone.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker-en-CA.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ar-tn.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.az.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.bg.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.bm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.bn.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.br.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.bs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ca.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.cs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.cy.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.da.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.de.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.el.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-AU.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-CA.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-GB.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-IE.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-NZ.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-ZA.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.eo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.es.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.et.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.eu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fa.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fr-CH.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.gl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.he.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.hi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.hr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.hu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.hy.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.id.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.is.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.it-CH.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.it.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ja.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ka.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.kh.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.kk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.km.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ko.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.kr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.lt.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.lv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.me.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.mk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.mn.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ms.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.nl-BE.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.nl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.no.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.oc.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.pl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.pt-BR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.pt.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ro.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.rs-latin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.rs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ru.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.si.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sq.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sr-latin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sw.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ta.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.tg.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.th.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.tk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.tr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.uk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.uz-cyrl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.uz-latn.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.vi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-TW.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/templates/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/templates/admin_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/templates/depart_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/templates/depart_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/templates/depart_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/templates/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/templates/found_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/templates/found_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/templates/found_record_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/templates/found_upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/templates/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/templates/location_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/templates/location_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/templates/lost_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/templates/lost_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/templates/lost_record_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/templates/lost_upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/templates/sort_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/templates/upload_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/templates/user_found_record_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/templates/user_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/utils/Monaco.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/utils/bootstrap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/utils/code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/utils/encrypt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/utils/pagination.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/views/Monaco.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/views/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/views/admin_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/views/found.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/views/found_record.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/views/location.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/views/lost.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/views/lost_record.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/views/sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin_app/views/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chart_app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chart_app/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chart_app/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chart_app/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chart_app/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chart_app/static/css/comon0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chart_app/static/img/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chart_app/static/img/head_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chart_app/static/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chart_app/static/img/更多内容关注公众号.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chart_app/static/js/echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chart_app/static/js/echarts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chart_app/static/js/jquery.cxselect.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chart_app/static/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chart_app/static/js/jquery.liMarquee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chart_app/static/js/js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chart_app/static/lol.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chart_app/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chart_app/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chart_app/views/chart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lost_and_found/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lost_and_found/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lost_and_found/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lost_and_found/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Monaco.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/middleware/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/fonts/Monaco.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/img/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/img/WX20211117-222041@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/img/code.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/img/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/img/图片 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/js/echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/js/echarts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/js/jquery-3.6.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-3.4.1/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-3.4.1/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-3.4.1/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-3.4.1/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-3.4.1/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-3.4.1/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-3.4.1/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-3.4.1/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-3.4.1/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-3.4.1/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-3.4.1/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.standalone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.standalone.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.standalone.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker-en-CA.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ar-tn.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.az.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.bg.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.bm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.bn.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.br.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.bs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ca.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.cs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.cy.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.da.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.de.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.el.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-AU.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-CA.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-GB.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-IE.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-NZ.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-ZA.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.eo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.es.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.et.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.eu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fa.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fr-CH.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.gl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.he.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.hi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.hr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.hu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.hy.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.id.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.is.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.it-CH.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.it.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ja.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ka.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.kh.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.kk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.km.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ko.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.kr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.lt.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.lv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.me.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.mk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.mn.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ms.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.nl-BE.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.nl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.no.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.oc.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.pl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.pt-BR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.pt.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ro.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.rs-latin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.rs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ru.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.si.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sq.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sr-latin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sw.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ta.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.tg.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.th.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.tk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.tr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.uk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.uz-cyrl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.uz-latn.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.vi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-TW.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/templates/all_found_record.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/templates/all_lost_record.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/templates/success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/templates/user_found_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/templates/user_found_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/templates/user_found_record.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/templates/user_found_upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/templates/user_layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/templates/user_login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/templates/user_lost_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/templates/user_lost_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/templates/user_lost_record.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/templates/user_lost_record_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/templates/user_lost_upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/templates/user_myfound.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/templates/user_mylost.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/templates/user_register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/views/found_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/views/lost_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/views/register.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/views/user_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/views/user_myfound.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/views/user_myfound_record.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/views/user_mylost.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_app/views/user_mylost_record.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lost/1dcdbebaabfb759ff30225f284a6494c.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lost/200810312349097149.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lost/200810312349097149_2ONbzMD.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lost/200810312349097149_iTOnues.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lost/200810312349097149_pFiqBzt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lost/236ee46406ba76fcb47f4d01d8fc96e5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lost/236ee46406ba76fcb47f4d01d8fc96e5_WFiUzIC.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lost/2d1f4d2554e6e99e587ddc07371bf964.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lost/2d1f4d2554e6e99e587ddc07371bf964_5HPzvln.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lost/2d1f4d2554e6e99e587ddc07371bf964_8rxSmvh.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lost/2d1f4d2554e6e99e587ddc07371bf964_VaIgXub.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lost/6e10923f71df2945c3b8b0bdf44e5c99.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lost/6e10923f71df2945c3b8b0bdf44e5c99_aN4lcrv.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lost/85a3585a9fc86e6b9dcd6af20e96dae1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lost/92025698f0850e2b66987b30eceb2576.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lost/e3a7ad00d589c8e79c209f0d60d8f55a.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lost/e3a7ad00d589c8e79c209f0d60d8f55a_4bP0I3k.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lost/ebb91a847b79b53a02c715ca0a9a9040.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lost/fdf1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lost/fdf1_SJ5HNhl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lost/v2-ebb60a50ee9397f52533f96c542650be_r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lost/v2-ebb60a50ee9397f52533f96c542650be_r_ocNJjD8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lost/未命名的设计.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lost/证件照1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lost/预览图_千图网_编号40855845.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lost/预览图_千图网_编号40855845_nncG9mK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="26rwM78OfrmndGcyoJN9CdhIcJ4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Django_Project\Lost_and_found\Chart_app\static\js" />
+      <recent name="D:\Django_Project\Lost_and_found\Chart_app" />
+      <recent name="D:\Django_Project\Lost_and_found\Chart_app\views" />
+      <recent name="D:\Django_Project\Lost_and_found\Chart_app\static" />
+      <recent name="D:\Django_Project\Lost_and_found\Chart_add" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Django_Project\Lost_and_found\Chart_app\static\img" />
+      <recent name="D:\Django_Project\Lost_and_found\Chart_app\templates" />
+      <recent name="D:\Django_Project\Lost_and_found\Chart_app" />
+      <recent name="D:\Django_Project\Lost_and_found\Chart_app\views" />
+      <recent name="D:\Django_Project\Lost_and_found\Chart_add\static" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django Server.Lost_and_found">
+    <configuration name="5645" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Lost_and_found" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chart_app/views" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chart_app/views/5645.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="chart" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Lost_and_found" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chart_app/views" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chart_app/views/chart.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="code" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Lost_and_found" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Admin_app/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Admin_app/utils/code.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dkasdn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Lost_and_found" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/User_app/views" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/User_app/views/dkasdn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="user_mylost" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Lost_and_found" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/User_app/views" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/User_app/views/user_mylost.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Lost_and_found" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Lost_and_found" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Lost_and_found.settings" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\RUI\anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django Server.Lost_and_found" />
+      <item itemvalue="Python.code" />
+      <item itemvalue="Python.user_mylost" />
+      <item itemvalue="Python.dkasdn" />
+      <item itemvalue="Python.5645" />
+      <item itemvalue="Python.chart" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.5645" />
+        <item itemvalue="Python.chart" />
+        <item itemvalue="Python.dkasdn" />
+        <item itemvalue="Python.user_mylost" />
+        <item itemvalue="Python.code" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a0a95c11-634a-4e35-9a06-a2931d038a87" name="Default Changelist" comment="" />
+      <created>1648194961972</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648194961972</updated>
+      <workItem from="1648194965401" duration="774000" />
+      <workItem from="1648195968458" duration="1023000" />
+      <workItem from="1648197210059" duration="4629000" />
+      <workItem from="1648201899241" duration="7756000" />
+      <workItem from="1648213774863" duration="3578000" />
+      <workItem from="1648270543332" duration="11381000" />
+      <workItem from="1648288940845" duration="470000" />
+      <workItem from="1648289652152" duration="9678000" />
+      <workItem from="1648310527888" duration="343000" />
+      <workItem from="1648356161113" duration="2941000" />
+      <workItem from="1648363784940" duration="12168000" />
+      <workItem from="1648381313776" duration="5472000" />
+      <workItem from="1648386902620" duration="559000" />
+      <workItem from="1648391543297" duration="6583000" />
+      <workItem from="1648429158939" duration="177000" />
+      <workItem from="1648527963144" duration="13132000" />
+      <workItem from="1648556953903" duration="774000" />
+      <workItem from="1648599545646" duration="1759000" />
+      <workItem from="1648621879873" duration="9628000" />
+      <workItem from="1648732775310" duration="5259000" />
+      <workItem from="1648772164743" duration="499000" />
+      <workItem from="1648811604879" duration="5050000" />
+      <workItem from="1648822334751" duration="9485000" />
+      <workItem from="1648865399013" duration="118000" />
+      <workItem from="1648865680883" duration="1277000" />
+      <workItem from="1648896349926" duration="12907000" />
+      <workItem from="1648995526734" duration="596000" />
+      <workItem from="1648996507888" duration="14608000" />
+      <workItem from="1649123687480" duration="242000" />
+      <workItem from="1649123979141" duration="163000" />
+      <workItem from="1649170962858" duration="4007000" />
+      <workItem from="1649175026629" duration="465000" />
+      <workItem from="1649204026713" duration="1346000" />
+      <workItem from="1649212894131" duration="3619000" />
+      <workItem from="1649227689828" duration="774000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="563" y="203" key="#Web_Browsers" timestamp="1648534339036">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="563" y="203" key="#Web_Browsers/0.0.1536.834@0.0.1536.834" timestamp="1648534339036" />
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1648398110961">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1648398110961" />
+    <state x="501" y="218" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1649215601747">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="501" y="218" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1649215601747" />
+    <state x="93" y="93" width="1350" height="648" key="DiffContextDialog" timestamp="1648374551033">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="93" y="93" width="1350" height="648" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1648374551033" />
+    <state width="1493" height="81" key="GridCell.Tab.0.bottom" timestamp="1649217926657">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="81" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1649217926657" />
+    <state width="1493" height="81" key="GridCell.Tab.0.center" timestamp="1649217926657">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="81" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1649217926657" />
+    <state width="1493" height="81" key="GridCell.Tab.0.left" timestamp="1649217926657">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="81" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1649217926657" />
+    <state width="1493" height="81" key="GridCell.Tab.0.right" timestamp="1649217926657">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="81" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1649217926657" />
+    <state x="270" y="62" key="SettingsEditor" timestamp="1648196220363">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="270" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1648196220363" />
+    <state x="468" y="18" width="600" height="798" key="find.popup" timestamp="1648365168686">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="468" y="18" width="600" height="798" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1648365168686" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1649000135676">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1649000135676" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/Admin_app/templates/lost_upload.html</url>
+          <line>31</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Chart_app/static/js/js.js</url>
+          <line>255</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Lost_and_found$5645.coverage" NAME="5645 Coverage Results" MODIFIED="1649171569361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chart_app/views" />
+    <SUITE FILE_PATH="coverage/Lost_and_found$chart.coverage" NAME="chart Coverage Results" MODIFIED="1648897195035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chart_app/views" />
+    <SUITE FILE_PATH="coverage/Lost_and_found$dkasdn.coverage" NAME="dkasdn Coverage Results" MODIFIED="1648532786001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/User_app/views" />
+    <SUITE FILE_PATH="coverage/Lost_and_found$admin_login.coverage" NAME="admin_login Coverage Results" MODIFIED="1648309966609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Admin_app/views" />
+    <SUITE FILE_PATH="coverage/Lost_and_found$code.coverage" NAME="code Coverage Results" MODIFIED="1648310268530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Admin_app/utils" />
+    <SUITE FILE_PATH="coverage/Lost_and_found$user_mylost.coverage" NAME="user_mylost Coverage Results" MODIFIED="1648386035156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/User_app/views" />
+  </component>
+</project>

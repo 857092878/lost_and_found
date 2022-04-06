@@ -1,0 +1,79 @@
+{% extends 'user_layout.html' %}
+
+{% block content %}
+    <div class="container">
+
+{#        <div style="margin-bottom: 10px">#}
+{#            <a class="btn btn-success" href="/found/add/">#}
+{#                <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>#}
+{#                捡到东西#}
+{#            </a>#}
+{#        </div>#}
+        <div class="panel panel-default">
+            <!-- Default panel contents -->
+
+            <div style="float: right;width: 300px;">
+                <form method="get">
+                    <div class="input-group">
+                        <input type="text" name="q" class="form-control" placeholder="Search for..."
+                               value="{{ value }}">
+                        <span class="input-group-btn">
+                        <button class="btn btn-default" type="submit">
+                            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                        </button>
+                      </span>
+                    </div>
+                </form>
+            </div>
+
+            <div class="panel-heading">
+                <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+                遗失记录
+
+            </div>
+
+
+
+            <!-- Table -->
+            <table class="table table-bordered">
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>图片</th>
+                    <th>捡的物品</th>
+                    <th>种类</th>
+                    <th>捡的位置</th>
+                    <th>捡的时间</th>
+                    <th>拾主姓名</th>
+                    <th>拾主联系方式</th>
+                    <th>描述</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for obj in queryset %}
+                    <tr>
+                        <th>{{ obj.id }}</th>
+                        <td>
+                            <img src="/media/{{ obj.img }}" style="height: 80px;">
+                        </td>
+                        <td>{{ obj.thing }}</td>
+                        <td>{{ obj.sort.title }}</td>
+                        <td>{{ obj.location.title }}</td>
+                        <td>{{ obj.found_time|date:"Y-m-d" }}</td>
+                        <td>{{ obj.name }}</td>
+                        <td>{{ obj.link }}</td>
+                        <td>{{ obj.description }}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <!-- 分页列表 -->
+        <ul class="pagination">
+            {{ page_string }}
+        </ul>
+
+    </div>
+{% endblock %}
+
